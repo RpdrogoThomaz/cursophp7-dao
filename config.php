@@ -10,7 +10,7 @@
 			require_once($filename);
 		}
 
-	})
+	});
 
 
 ?>
