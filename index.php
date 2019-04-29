@@ -29,10 +29,16 @@
 	echo $aluno;
 	*/
 
+	/* Alterar um usuário
 	$usuario = new Usuario();
 	$usuario->loadById(12);
 	$usuario->update("professor", "pr0f3ss04");
 
 	echo $usuario;
+	*/
 
+	$usuario = new Usuario();
+	$usuario->loadById(12);
+	$usuario->delete();
+	echo $usuario;
 ?>
